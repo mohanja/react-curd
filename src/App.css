@@ -1,0 +1,57 @@
+.flex-row{
+  display: flex;
+  justify-content: space-around;
+}
+.from-text{
+ display: flex;
+ flex-direction: column;
+ max-width: 250px; 
+ margin: 0 auto;
+ gap: 10px;
+}
+
+
+
+.but{
+  display: flex;
+  justify-content: space-between;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.hunt{
+  padding-left: 10px;
+}
+.but{
+  display: flex;
+  justify-content: space-around;
+}
+
+.table{
+  margin-left: 25%;
+  margin-top: 40px;
+}
+
+.from-text{
+  margin-top: 40px;
+}
