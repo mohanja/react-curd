@@ -30,7 +30,9 @@ export function App() {
           >
            DASHBORD
           </Typography>
-    
+          <Button color="inherit"  onClick={()=>navigate("/")}>
+          Home
+            </Button>
             <Button color="inherit"  onClick={()=>navigate("/student")}>
             student
             </Button>
@@ -61,6 +63,7 @@ export function App() {
             </Toolbar>
             </AppBar>
            <Routes>
+           <Route exact path='/' element={<Home/>}></Route>
                  <Route exact path='/addstudent' element={<AddNewStudent />}></Route>
                  <Route exact path='/student' element={<Student/>}></Route>
                  <Route exact path='/student/eadit/:id' element={<Updatest/>}></Route>
@@ -75,6 +78,13 @@ export function App() {
   );
 }
 
+function Home(){
+  return(
+    <h1>
+      WELCOME TO DASHBORD
+    </h1>
+  )
+}
 export default App;
 
 
