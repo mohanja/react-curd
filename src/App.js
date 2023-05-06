@@ -34,7 +34,7 @@ export function App() {
            DASHBORD
           </Typography>
           <Button color="inherit"  onClick={()=>navigate("/")}>
-          Home
+          Dashbord
             </Button>
             <Button color="inherit"  onClick={()=>navigate("/student")}>
             student
