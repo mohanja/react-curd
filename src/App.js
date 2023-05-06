@@ -12,6 +12,9 @@ import Button from '@mui/material/Button';
 import { useNavigate } from "react-router-dom";
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+import { DashBord } from "./dashbord";
+import { Dash } from "./dash";
+
 export function App() {
   const navigate=useNavigate();
 
@@ -80,9 +83,15 @@ export function App() {
 
 function Home(){
   return(
-    <h1>
-      WELCOME TO DASHBORD
-    </h1>
+   <div className="theri">
+    <div className="teac">
+    <Dash/>
+    </div>
+ <div className="sudt"> 
+  
+<DashBord/>
+ </div>
+ </div>
   )
 }
 export default App;

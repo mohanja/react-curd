@@ -55,3 +55,15 @@
 .from-text{
   margin-top: 40px;
 }
+.theri{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.teac{
+  width: 700px;
+}
+.sudt{
+  width: 700px;
+}
